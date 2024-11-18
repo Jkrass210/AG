@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <link href="css/normalize.min.css" rel="stylesheet">
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+    
+    <script src="js/swiper-bundle.min.js" defer></script>
+    <script src="js/swiper-bundle.min.js.map" defer></script>
+    <script src="js/main.min.js" defer></script>
+  </head>
+  <style>
+    html, body, .page-wrapper {
+			height: 100%;
+		}
+		.page-wrapper { 
+			overflow: auto;
+		}
+		.pages-intro {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			width: 100%;
+			margin: 0 auto;
+			padding: 100px 40px;
+		}
+		.pages-intro__logo {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+      max-width: auto;
+			border: 2px solid #6237a0;
+		}
+    .pages-intro__logo a{
+			color: #6237a0;
+		}
+		.pages-intro__list {
+			margin: 0;
+			padding: 60px 0 0 20px;
+			list-style-type: none;
+			border-left: 2px solid #6237a0;
+		}
+		.pages-intro__list > li {
+			position: relative;
+		}
+		.pages-intro__list > li:not(:last-child) {
+			margin-bottom: 16px;
+		}
+		.pages-intro__list > li:before {
+			content: '';
+			position: absolute;
+			top: calc(50% - 2px);
+			right: calc(100% + 10px);
+			transform: translateY(-50%);
+			display: block;
+		  width: 10px;
+			height: 2px;
+			background: #6237a0;
+		}
+		.pages-intro__list > li > a {
+			font-size: 24px;
+			line-height: 1;
+			font-weight: 600px;
+      color: #28104e;
+		}
+		.pages-intro__list > li > a:hover {
+			text-decoration: underline;
+		}
+  </style>
+<body>
+  <div class="pages-intro">
+    <div class="pages-intro__logo">
+      <div class="header__logo-box">
+        <a href="/" class="header__logo"> анютины глазки </a>
+      </div>
+    </div>
+    <ul class="pages-intro__list">
+      <li>
+        <a href="main.html">Главная</a>
+      </li>
+      <li>
+        <a href="main_new.html">Новая Главная</a>
+      </li>
+			<li>
+        <a href="about_company.html">О нас</a>
+      </li>
+			<li>
+        <a href="catalog.html">Каталог</a>
+      </li>
+			<li>
+        <a href="product_card.html">Карточка товара</a>
+      </li>
+			<li>
+        <a href="basket.html">Корзина</a>
+      </li>
+			<li>
+        <a href="contacts.html">Контакты</a>
+      </li>
+      <li>
+        <a href="bonus_program.html">Личный кабинет - Бонусная программа</a>
+      </li>
+      <li>
+        <a href="bonus.html">Личный кабинет - Бонус</a>
+      </li>
+      <li>
+        <a href="delivery.html">Доставка и оплата</a>
+      </li>
+      <li>
+        <a href="form_payment.html">Личный кабинет - Форма оплаты</a>
+      </li>
+      <li>
+        <a href="manual.html">Инструкция по уходу за цветами</a>
+      </li>
+      <li>
+        <a href="my_appeals.html">Личный кабинет - Мои обращения</a>
+      </li>
+      <li>
+        <a href="my_office.html">Личный кабинет - Мой кабинет</a>
+      </li>
+      <li>
+        <a href="order_history.html">Личный кабинет - История заказов</a>
+      </li>
+      <li>
+        <a href="order.html">Оформление заказа</a>
+      </li>
+      <li>
+        <a href="personal_data.html">Личный кабинет - Личные данные</a>
+      </li>
+      <li>
+        <a href="product_warranty.html">Гарантия на товар</a>
+      </li>
+      <li>
+        <a href="reviews_page.html">Отзывы наших клиентов</a>
+      </li>
+      <li>
+        <a href="shipping_method.html">Способ доставки</a>
+      </li>
+      <li>
+        <a href="subscription.html">Подписка на доставку</a>
+      </li>
+      <li>
+        <a href="thanks.html">Оформление заказа - Спасибо</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

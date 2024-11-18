@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bonus</title>
+  <!--<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>-->
+      <link href="css/normalize.min.css" rel="stylesheet">
+      <link href="css/swiper-bundle.min.css" rel="stylesheet">
+      <link href="css/style.min.css" rel="stylesheet">
+      
+      <!--<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>-->
+    
+      <script src="js/swiper-bundle.min.js" defer></script>
+      <script src="js/swiper-bundle.min.js.map" defer></script>
+      <script src="js/main.min.js" defer></script>
+</head>
+<body>
+  <!--Если добавить класс "header-light" хедер перестоится в стандартный-->
+<header class="header header-light">
+  <div class="container header__container">
+    <div class="header__content">
+      <div class="header__logo-box">
+        <a href="/" class="header__logo"> анютины глазки </a>
+      </div>
+      <div class="header__shops-box">
+        <p>4 магазина</p>
+        <a href="#">Открыть на карте</a>
+      </div>
+      <div class="header__rating rating">
+        <a href="#">Рейтинг в яндексе</a>
+        <div class="rating__box-bottom">
+          <p>4.8</p>
+          <div class="rating__box-star">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.92369 13.1047L3.553 15.9002C3.26795 16.0998 2.88788 15.9002 2.69785 15.7005C2.69785 15.5008 2.60283 15.401 2.69785 15.2013L3.93305 9.9099L0.227458 6.91477C-0.0575877 6.7151 -0.0575935 6.21591 0.132437 6.01623C0.227453 5.91639 0.417483 5.81656 0.607514 5.71672L5.35828 5.31737L7.35361 0.425322C7.44863 0.125809 7.82868 -0.073867 8.20874 0.0259707C8.39877 0.0259707 8.4938 0.225647 8.58881 0.425322L10.5841 5.31737L15.4299 5.71672C15.81 5.71672 16 6.11607 16 6.41558C16 6.61526 15.905 6.81493 15.715 6.91477L12.0094 9.9099L13.2446 15.2013C13.2446 15.6006 13.1495 15.9002 12.7695 16C12.5795 16 12.3894 16 12.2944 16L7.92369 13.2045V13.1047Z"
+                fill="#FFD43E"
+              />
+            </svg>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.92369 13.1047L3.553 15.9002C3.26795 16.0998 2.88788 15.9002 2.69785 15.7005C2.69785 15.5008 2.60283 15.401 2.69785 15.2013L3.93305 9.9099L0.227458 6.91477C-0.0575877 6.7151 -0.0575935 6.21591 0.132437 6.01623C0.227453 5.91639 0.417483 5.81656 0.607514 5.71672L5.35828 5.31737L7.35361 0.425322C7.44863 0.125809 7.82868 -0.073867 8.20874 0.0259707C8.39877 0.0259707 8.4938 0.225647 8.58881 0.425322L10.5841 5.31737L15.4299 5.71672C15.81 5.71672 16 6.11607 16 6.41558C16 6.61526 15.905 6.81493 15.715 6.91477L12.0094 9.9099L13.2446 15.2013C13.2446 15.6006 13.1495 15.9002 12.7695 16C12.5795 16 12.3894 16 12.2944 16L7.92369 13.2045V13.1047Z"
+                fill="#FFD43E"
+              />
+            </svg>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.92369 13.1047L3.553 15.9002C3.26795 16.0998 2.88788 15.9002 2.69785 15.7005C2.69785 15.5008 2.60283 15.401 2.69785 15.2013L3.93305 9.9099L0.227458 6.91477C-0.0575877 6.7151 -0.0575935 6.21591 0.132437 6.01623C0.227453 5.91639 0.417483 5.81656 0.607514 5.71672L5.35828 5.31737L7.35361 0.425322C7.44863 0.125809 7.82868 -0.073867 8.20874 0.0259707C8.39877 0.0259707 8.4938 0.225647 8.58881 0.425322L10.5841 5.31737L15.4299 5.71672C15.81 5.71672 16 6.11607 16 6.41558C16 6.61526 15.905 6.81493 15.715 6.91477L12.0094 9.9099L13.2446 15.2013C13.2446 15.6006 13.1495 15.9002 12.7695 16C12.5795 16 12.3894 16 12.2944 16L7.92369 13.2045V13.1047Z"
+                fill="#FFD43E"
+              />
+            </svg>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.92369 13.1047L3.553 15.9002C3.26795 16.0998 2.88788 15.9002 2.69785 15.7005C2.69785 15.5008 2.60283 15.401 2.69785 15.2013L3.93305 9.9099L0.227458 6.91477C-0.0575877 6.7151 -0.0575935 6.21591 0.132437 6.01623C0.227453 5.91639 0.417483 5.81656 0.607514 5.71672L5.35828 5.31737L7.35361 0.425322C7.44863 0.125809 7.82868 -0.073867 8.20874 0.0259707C8.39877 0.0259707 8.4938 0.225647 8.58881 0.425322L10.5841 5.31737L15.4299 5.71672C15.81 5.71672 16 6.11607 16 6.41558C16 6.61526 15.905 6.81493 15.715 6.91477L12.0094 9.9099L13.2446 15.2013C13.2446 15.6006 13.1495 15.9002 12.7695 16C12.5795 16 12.3894 16 12.2944 16L7.92369 13.2045V13.1047Z"
+                fill="#FFD43E"
+              />
+            </svg>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.92369 13.1047L3.553 15.9002C3.26795 16.0998 2.88788 15.9002 2.69785 15.7005C2.69785 15.5008 2.60283 15.401 2.69785 15.2013L3.93305 9.9099L0.227458 6.91477C-0.0575877 6.7151 -0.0575935 6.21591 0.132437 6.01623C0.227453 5.91639 0.417483 5.81656 0.607514 5.71672L5.35828 5.31737L7.35361 0.425322C7.44863 0.125809 7.82868 -0.073867 8.20874 0.0259707C8.39877 0.0259707 8.4938 0.225647 8.58881 0.425322L10.5841 5.31737L15.4299 5.71672C15.81 5.71672 16 6.11607 16 6.41558C16 6.61526 15.905 6.81493 15.715 6.91477L12.0094 9.9099L13.2446 15.2013C13.2446 15.6006 13.1495 15.9002 12.7695 16C12.5795 16 12.3894 16 12.2944 16L7.92369 13.2045V13.1047Z"
+                fill="#FFD43E"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="header__box-link-tel">
+        <p>Круглосуточно</p>
+        <a href="tel:79859199777">+7 985 919-97-77</a>
+      </div>
+      <div class="header__box-links">
+        <ul class="list-reset">
+          <li>
+            <a href="#">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.9265 17.0401L20.3996 20.4001M19.2796 11.4401C19.2796 15.77 15.7695 19.2801 11.4396 19.2801C7.1097 19.2801 3.59961 15.77 3.59961 11.4401C3.59961 7.11019 7.1097 3.6001 11.4396 3.6001C15.7695 3.6001 19.2796 7.11019 19.2796 11.4401Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.80577 6.20635C4.7059 5.30649 5.92658 4.80097 7.19936 4.80097C8.47215 4.80097 9.69283 5.30649 10.593 6.20635L11.9994 7.61155L13.4058 6.20635C13.8485 5.7479 14.3782 5.38223 14.9638 5.13066C15.5494 4.8791 16.1793 4.74669 16.8166 4.74115C17.454 4.73561 18.086 4.85706 18.6759 5.09841C19.2658 5.33975 19.8018 5.69617 20.2525 6.14685C20.7031 6.59754 21.0596 7.13347 21.3009 7.72337C21.5423 8.31327 21.6637 8.94533 21.6582 9.58268C21.6526 10.22 21.5202 10.8499 21.2686 11.4355C21.0171 12.0211 20.6514 12.5508 20.193 12.9935L11.9994 21.1883L3.80577 12.9935C2.9059 12.0934 2.40039 10.8727 2.40039 9.59995C2.40039 8.32716 2.9059 7.10648 3.80577 6.20635V6.20635Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span>10</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.6004 8.34191C15.6004 10.3301 13.9886 11.9419 12.0004 11.9419C10.0122 11.9419 8.40039 10.3301 8.40039 8.34191M4.72766 20.9419H19.2731C20.5584 20.9419 21.6004 19.9193 21.6004 18.6579L20.1095 5.34188C20.1095 4.08045 19.0675 3.05786 17.7822 3.05786H5.92766C4.64235 3.05786 3.60039 4.08045 3.60039 5.34188L2.40039 18.6579C2.40039 19.9193 3.44235 20.9419 4.72766 20.9419Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span>1</span>
+            </a>
+          </li>
+        </ul>
+        <a href="#" class="header__link-login">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3.23828 19.5C4.56369 17.2892 7.46856 15.7762 12.0006 15.7762C16.5326 15.7762 19.4374 17.2892 20.7628 19.5M15.6006 8.1C15.6006 10.0882 13.9888 11.7 12.0006 11.7C10.0123 11.7 8.40056 10.0882 8.40056 8.1C8.40056 6.11177 10.0123 4.5 12.0006 4.5C13.9888 4.5 15.6006 6.11177 15.6006 8.1Z"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+          <span>Войти</span>
+        </a>
+      </div>
+      <div class="header__burger burger" id="burger">
+        <button class="burger__btn btn-reset">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="mobile" id="mobileMenu">
+        <div class="container mobile__container">
+          <div class="btn-close__box-close" id="mobileMenuClose">
+  <button class="btn-close__close btn-reset">
+    <span></span>
+    <span></span>
+  </button>
+</div>
+          <ul class="list-reset">
+            <li>
+              <a href="#"> hjgjhjkjkjb </a>
+            </li>
+            <li>
+              <a href="#"> dgdgege </a>
+            </li>
+            <li>
+              <a href="#"> egegegege </a>
+            </li>
+            <li>
+              <a href="#"> 111111 </a>
+            </li>
+            <li>
+              <a href="#"> dgegwergewrg </a>
+            </li>
+            <li>
+              <a href="#"> dgegwergewrg </a>
+            </li>
+            <li>
+              <a href="#"> dgegwergewrg </a>
+            </li>
+          </ul>
+          <div class="header__box-link-tel">
+            <p>Круглосуточно</p>
+            <a href="tel:79859199777">+7 985 919-97-77</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header__box-img">
+    <img src="img/header/beac/1.jpg" />
+  </div>
+</header>
+
+  <main class="main">
+    <div class="bonus-page__container container">
+      <div class="navigator">
+  <a class="navigator__link" href="index.html">Главная</a>
+  <span class="navigator__span">//</span>
+  <p class="navigator__desc">Бонусная программа</p>
+</div>
+    </div>
+    <section class="bonus-page bonus-page__hero hero-bonus">
+      <div class="hero-bonus__container container">
+        <div class="hero-bonus__box-title">
+          <h1 class="hero-bonus__title">
+            БОНУСЫ
+          </h1>
+          <div class="hero-bonus__box-img">
+            <img class="hero-bonus__img" src="img/bonus-page/hero-bonus/Cash-Card.png" alt="img">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="hero-bonus__box-bottom">
+          <p class="hero-bonus__desc">
+            Мы&nbsp;хотим, чтобы наши клиенты возвращались к&nbsp;нам снова и&nbsp;снова. Поэтому мы&nbsp;разработали специальную бонусную программу для наших клиентов.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="bonus-page__info info-bonus">
+      <div class="info-bonus__container container">
+        <h2 class="info-bonus__title title-bonus">
+          Как работает наша бонусная программа:
+        </h2>
+        <ul class="info-bonus__list list-reset">
+          <li class="info-bonus__item">
+            <span class="info-bonus__span">
+              1
+            </span>
+            <p class="info-bonus__desc">
+              За&nbsp;каждую покупку вы&nbsp;получаете бонусы в&nbsp;размере&nbsp;5% от&nbsp;суммы заказа
+            </p>
+          </li>
+          <li class="info-bonus__item">
+            <span class="info-bonus__span">
+              2
+            </span>
+            <p class="info-bonus__desc">
+              Бонусы можно использовать для оплаты следующих заказов. Один бонус равен одному рублю
+            </p>
+          </li>
+          <li class="info-bonus__item">
+            <span class="info-bonus__span">
+              3
+            </span>
+            <p class="info-bonus__desc">
+              Бонусные средства не&nbsp;суммируются, а&nbsp;сгорают после окончания календарного месяца
+            </p>
+          </li>
+          <li class="info-bonus__item">
+            <span class="info-bonus__span">
+              4
+            </span>
+            <p class="info-bonus__desc">
+              Срок действия бонусов&nbsp;&mdash; один месяц
+            </p>
+          </li>
+          <li class="info-bonus__item">
+            <span class="info-bonus__span">
+              5
+            </span>
+            <p class="info-bonus__desc">
+              Для получения бонусов необходимо указать номер телефона при оформлении заказа
+            </p>
+          </li>
+          <li class="info-bonus__item">
+            <span class="info-bonus__span">
+              6
+            </span>
+            <p class="info-bonus__desc">
+              Бонусная программа действует только для физических лиц
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="bonus-page__conditions info-conditions">
+      <div class="container info-conditions__container">
+        <h2 class="info-conditions__title title-bonus">
+          Условия участия в&nbsp;бонусной программе:
+        </h2>
+        <ul class="info-conditions__list list-reset">
+          <li class="info-conditions__item">
+            <svg class="info-conditions__svg" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_178_4562)">
+                <path d="M32.3059 22.5799C31.4472 22.1713 30.5639 21.8167 29.661 21.5181C32.5687 19.3356 34.4531 15.8603 34.4531 11.9531C34.4531 5.36221 29.091 0 22.5 0C15.909 0 10.5468 5.36221 10.5468 11.9531C10.5468 15.8646 12.4354 19.3433 15.3486 21.5254C12.6795 22.4041 10.1751 23.7714 7.98307 25.5744C3.96366 28.8806 1.169 33.4921 0.114048 38.5596C-0.216596 40.1475 0.179527 41.7784 1.20064 43.034C2.21674 44.2834 3.72345 45 5.33431 45H26.9824C27.9532 45 28.7402 44.213 28.7402 43.2422C28.7402 42.2713 27.9532 41.4844 26.9824 41.4844H5.33431C4.5839 41.4844 4.13118 41.0655 3.92815 40.8159C3.57755 40.3848 3.44185 39.8236 3.55585 39.2761C5.38001 30.5139 13.1088 24.1131 22.034 23.8973C22.346 23.9094 22.6585 23.9093 22.9705 23.8971C25.7057 23.9613 28.3363 24.5855 30.7967 25.7551C31.6735 26.1717 32.7221 25.799 33.1389 24.9221C33.5556 24.0453 33.1828 22.9967 32.3059 22.5799ZM22.9287 20.3798C22.644 20.3746 22.3593 20.3746 22.0746 20.38C17.619 20.1577 14.0625 16.463 14.0625 11.9531C14.0625 7.30063 17.8475 3.51562 22.5 3.51562C27.1525 3.51562 30.9375 7.30063 30.9375 11.9531C30.9375 16.4618 27.3827 20.1559 22.9287 20.3798Z" fill="#E52B50" />
+                <path d="M43.2422 34.8926H38.4082V30.0586C38.4082 29.0878 37.6212 28.3008 36.6504 28.3008C35.6796 28.3008 34.8926 29.0878 34.8926 30.0586V34.8926H30.0586C29.0878 34.8926 28.3008 35.6796 28.3008 36.6504C28.3008 37.6212 29.0878 38.4082 30.0586 38.4082H34.8926V43.2422C34.8926 44.213 35.6796 45 36.6504 45C37.6212 45 38.4082 44.213 38.4082 43.2422V38.4082H43.2422C44.213 38.4082 45 37.6212 45 36.6504C45 35.6796 44.213 34.8926 43.2422 34.8926Z" fill="#E52B50" />
+              </g>
+            </svg>
+            <p class="info-conditions__desc">
+              Быть зарегистрированным клиентом компании
+            </p>
+          </li>
+          <li class="info-conditions__item">
+            <svg class="info-conditions__svg" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_178_4566)">
+                <mask id="mask0_178_4566" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="45" height="45">
+                  <path d="M0 0H45V45H0V0Z" fill="white" />
+                </mask>
+                <g mask="url(#mask0_178_4566)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M22.4982 0C20.0118 0 17.6273 0.98772 15.8691 2.74587C14.111 4.50403 13.1232 6.8886 13.1232 9.375V11.25H10.1514C7.42886 11.25 5.00824 13.125 4.48324 15.825L0.101361 38.325C-0.592389 41.8763 2.23886 45 5.76949 45H39.227C42.7576 45 45.587 41.8763 44.8951 38.325L40.5132 15.825C39.9882 13.125 37.5695 11.25 34.8451 11.25H31.8732V9.375C31.8732 6.8886 30.8855 4.50403 29.1274 2.74587C27.3692 0.98772 24.9846 0 22.4982 0ZM28.1232 15V18.75C28.1232 19.2473 28.3208 19.7242 28.6724 20.0758C29.024 20.4275 29.501 20.625 29.9982 20.625C30.4955 20.625 30.9724 20.4275 31.3241 20.0758C31.6757 19.7242 31.8732 19.2473 31.8732 18.75V15H34.8451C35.8707 15 36.6676 15.6975 36.8326 16.5431L41.2145 39.0431C41.4207 40.1081 40.5751 41.25 39.227 41.25H5.76949C4.42136 41.25 3.57574 40.1063 3.78199 39.0431L8.16386 16.5431C8.32886 15.6975 9.12574 15 10.1514 15H13.1232V18.75C13.1232 19.2473 13.3208 19.7242 13.6724 20.0758C14.024 20.4275 14.501 20.625 14.9982 20.625C15.4955 20.625 15.9724 20.4275 16.3241 20.0758C16.6757 19.7242 16.8732 19.2473 16.8732 18.75V15H28.1232ZM28.1232 11.25V9.375C28.1232 7.88316 27.5306 6.45242 26.4757 5.39752C25.4208 4.34263 23.9901 3.75 22.4982 3.75C21.0064 3.75 19.5757 4.34263 18.5208 5.39752C17.4659 6.45242 16.8732 7.88316 16.8732 9.375V11.25H28.1232Z" fill="#E52B50" />
+                </g>
+              </g>
+            </svg>
+            <p class="info-conditions__desc">
+              Совершать покупки на&nbsp;сумму от&nbsp;3000 рублей
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="bonus-page__registration registration-bonus">
+      <div class="container registration-bonus__container">
+        <form class="registration-bonus__form" action="#" method="post" id="formCard">
+          <h3 class="registration-bonus__title">
+            Пройти регистрацию и&nbsp;получить карту
+          </h3>
+          <div class="registration-bonus__box">
+            <label class="registration-bonus__label" for="name">
+              <input class="registration-bonus__input" type="text" name="name" id="name" placeholder="Имя">
+            </label>
+            <label class="registration-bonus__label" for="phone">
+              <input class="registration-bonus__input" type="tel" name="phone" id="phone" placeholder="Телефон">
+            </label>
+            <button class="registration-bonus__btn btn-reset btn-one" id="submitReg">
+              Получить карту
+            </button>
+          </div>
+        </form>
+        <div class="registration-bonus__box-bottom">
+          <p class="registration-bonus__desc">
+            Наша бонусная программа&nbsp;&mdash; это отличный способ сэкономить на&nbsp;покупке цветов и&nbsp;подарков. Присоединяйтесь к&nbsp;нашей программе уже сегодня!
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__content">
+      <div class="footer__left">
+        <a class="footer__link-logo" href="/">
+          <img class="footer__img-logo" src="img/header/logo.png" alt="Лого">
+        </a>
+        <p class="footer__desc">
+          Сервис быстрой доставки цветов
+        </p>
+      </div>
+      <div class="footer__centre-one">
+        <h3 class="footer__title">
+          Информация
+        </h3>
+        <nav class="footer__nav footer__nav-one">
+          <ul class="footer__list footer__list-one list-reset">
+            <li class="footer__item">
+              <a class="footer__link" href="form_payment.html">
+                О&nbsp;компании
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="order_history.html">
+                Доставка и&nbsp;оплата
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="bonus_program.html">
+                Адреса магазинов
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="bonus.html">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__centre-two">
+        <h3 class="footer__title">
+          Разделы
+        </h3>
+        <nav class="footer__nav footer__nav-two">
+          <ul class="footer__list footer__list-two list-reset">
+            <li class="footer__item">
+              <a class="footer__link" href="shipping_method.html">
+                Цветы
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="my_appeals.html">
+                Букеты
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="personal_data.html">
+                Повод
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="catalog.html">
+                Розы
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="order.html">
+                Акции
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="basket.html">
+                Подарки
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__right">
+        <h3 class="footer__title">
+          Контакты
+        </h3>
+        <div class="footer__box-contacts">
+          <a class="footer__link-contacts" href="tel:+79635712559">
+            8&nbsp;963&nbsp;571&nbsp;-&nbsp;25&nbsp;-&nbsp;59
+          </a>
+          <button class="footer__link-order btn-reset open-modal" id="modal1">
+            Закать звонок
+          </button>
+        </div>
+        <div class="footer__box-link">
+          <a class="header__link-write footer__link-write" href="#">
+            <img src="img/header/icon/WA.png" alt="Напишите нам">
+            <span>Написать&nbsp;в&nbsp;WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom-box">
+      <p class="footer__desc-bottom">
+        &copy;&nbsp;2024 Цветы столицы, Все права защищены
+      </p>
+      <a class="footer__link-bottom" href="#">
+        Политика конфиденциальности
+      </a>
+    </div>
+  </div>
+  <!--Открытие и закрытие модального окна завязано на "id конпки" и на атрибуте "data-modal-id" у модалки-->
+<div class="modal-call" data-modal-id="modal1">
+  <div class="modal-call__wrapp">
+    <div class="modal-call__close-wrapp">
+      <button class="modal-call__close btn-reset">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <form class="modal-call__form" id="phoneForm">
+      <h3 class="modal-call__title">
+        Заказать звонок
+      </h3>
+      <label class="modal-call__leabel" for="tel">Телефон</label>
+      <input class="modal-call__input" id="tel" name="tel">
+      <button class="modal-call__btn btn-reset btn-one" id="submit">
+        Заказать
+      </button>
+    </form>
+  </div>
+</div>
+</footer>
+</body>
+</html>

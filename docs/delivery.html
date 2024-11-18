@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>delivery</title>
+    <link href="css/normalize.min.css" rel="stylesheet">
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+    
+    <script src="js/swiper-bundle.min.js" defer></script>
+    <script src="js/swiper-bundle.min.js.map" defer></script>
+    <script src="js/main.min.js" defer></script>
+</head>
+<body>
+  <!--Если добавить класс "header-light" хедер перестоится в стандартный-->
+<header class="header header-light">
+  <div class="container header__container">
+    <div class="header__content">
+      <div class="header__logo-box">
+        <a href="/" class="header__logo"> анютины глазки </a>
+      </div>
+      <div class="header__shops-box">
+        <p>4 магазина</p>
+        <a href="#">Открыть на карте</a>
+      </div>
+      <div class="header__rating rating">
+        <a href="#">Рейтинг в яндексе</a>
+        <div class="rating__box-bottom">
+          <p>4.8</p>
+          <div class="rating__box-star">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.92369 13.1047L3.553 15.9002C3.26795 16.0998 2.88788 15.9002 2.69785 15.7005C2.69785 15.5008 2.60283 15.401 2.69785 15.2013L3.93305 9.9099L0.227458 6.91477C-0.0575877 6.7151 -0.0575935 6.21591 0.132437 6.01623C0.227453 5.91639 0.417483 5.81656 0.607514 5.71672L5.35828 5.31737L7.35361 0.425322C7.44863 0.125809 7.82868 -0.073867 8.20874 0.0259707C8.39877 0.0259707 8.4938 0.225647 8.58881 0.425322L10.5841 5.31737L15.4299 5.71672C15.81 5.71672 16 6.11607 16 6.41558C16 6.61526 15.905 6.81493 15.715 6.91477L12.0094 9.9099L13.2446 15.2013C13.2446 15.6006 13.1495 15.9002 12.7695 16C12.5795 16 12.3894 16 12.2944 16L7.92369 13.2045V13.1047Z"
+                fill="#FFD43E"
+              />
+            </svg>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.92369 13.1047L3.553 15.9002C3.26795 16.0998 2.88788 15.9002 2.69785 15.7005C2.69785 15.5008 2.60283 15.401 2.69785 15.2013L3.93305 9.9099L0.227458 6.91477C-0.0575877 6.7151 -0.0575935 6.21591 0.132437 6.01623C0.227453 5.91639 0.417483 5.81656 0.607514 5.71672L5.35828 5.31737L7.35361 0.425322C7.44863 0.125809 7.82868 -0.073867 8.20874 0.0259707C8.39877 0.0259707 8.4938 0.225647 8.58881 0.425322L10.5841 5.31737L15.4299 5.71672C15.81 5.71672 16 6.11607 16 6.41558C16 6.61526 15.905 6.81493 15.715 6.91477L12.0094 9.9099L13.2446 15.2013C13.2446 15.6006 13.1495 15.9002 12.7695 16C12.5795 16 12.3894 16 12.2944 16L7.92369 13.2045V13.1047Z"
+                fill="#FFD43E"
+              />
+            </svg>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.92369 13.1047L3.553 15.9002C3.26795 16.0998 2.88788 15.9002 2.69785 15.7005C2.69785 15.5008 2.60283 15.401 2.69785 15.2013L3.93305 9.9099L0.227458 6.91477C-0.0575877 6.7151 -0.0575935 6.21591 0.132437 6.01623C0.227453 5.91639 0.417483 5.81656 0.607514 5.71672L5.35828 5.31737L7.35361 0.425322C7.44863 0.125809 7.82868 -0.073867 8.20874 0.0259707C8.39877 0.0259707 8.4938 0.225647 8.58881 0.425322L10.5841 5.31737L15.4299 5.71672C15.81 5.71672 16 6.11607 16 6.41558C16 6.61526 15.905 6.81493 15.715 6.91477L12.0094 9.9099L13.2446 15.2013C13.2446 15.6006 13.1495 15.9002 12.7695 16C12.5795 16 12.3894 16 12.2944 16L7.92369 13.2045V13.1047Z"
+                fill="#FFD43E"
+              />
+            </svg>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.92369 13.1047L3.553 15.9002C3.26795 16.0998 2.88788 15.9002 2.69785 15.7005C2.69785 15.5008 2.60283 15.401 2.69785 15.2013L3.93305 9.9099L0.227458 6.91477C-0.0575877 6.7151 -0.0575935 6.21591 0.132437 6.01623C0.227453 5.91639 0.417483 5.81656 0.607514 5.71672L5.35828 5.31737L7.35361 0.425322C7.44863 0.125809 7.82868 -0.073867 8.20874 0.0259707C8.39877 0.0259707 8.4938 0.225647 8.58881 0.425322L10.5841 5.31737L15.4299 5.71672C15.81 5.71672 16 6.11607 16 6.41558C16 6.61526 15.905 6.81493 15.715 6.91477L12.0094 9.9099L13.2446 15.2013C13.2446 15.6006 13.1495 15.9002 12.7695 16C12.5795 16 12.3894 16 12.2944 16L7.92369 13.2045V13.1047Z"
+                fill="#FFD43E"
+              />
+            </svg>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.92369 13.1047L3.553 15.9002C3.26795 16.0998 2.88788 15.9002 2.69785 15.7005C2.69785 15.5008 2.60283 15.401 2.69785 15.2013L3.93305 9.9099L0.227458 6.91477C-0.0575877 6.7151 -0.0575935 6.21591 0.132437 6.01623C0.227453 5.91639 0.417483 5.81656 0.607514 5.71672L5.35828 5.31737L7.35361 0.425322C7.44863 0.125809 7.82868 -0.073867 8.20874 0.0259707C8.39877 0.0259707 8.4938 0.225647 8.58881 0.425322L10.5841 5.31737L15.4299 5.71672C15.81 5.71672 16 6.11607 16 6.41558C16 6.61526 15.905 6.81493 15.715 6.91477L12.0094 9.9099L13.2446 15.2013C13.2446 15.6006 13.1495 15.9002 12.7695 16C12.5795 16 12.3894 16 12.2944 16L7.92369 13.2045V13.1047Z"
+                fill="#FFD43E"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="header__box-link-tel">
+        <p>Круглосуточно</p>
+        <a href="tel:79859199777">+7 985 919-97-77</a>
+      </div>
+      <div class="header__box-links">
+        <ul class="list-reset">
+          <li>
+            <a href="#">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.9265 17.0401L20.3996 20.4001M19.2796 11.4401C19.2796 15.77 15.7695 19.2801 11.4396 19.2801C7.1097 19.2801 3.59961 15.77 3.59961 11.4401C3.59961 7.11019 7.1097 3.6001 11.4396 3.6001C15.7695 3.6001 19.2796 7.11019 19.2796 11.4401Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.80577 6.20635C4.7059 5.30649 5.92658 4.80097 7.19936 4.80097C8.47215 4.80097 9.69283 5.30649 10.593 6.20635L11.9994 7.61155L13.4058 6.20635C13.8485 5.7479 14.3782 5.38223 14.9638 5.13066C15.5494 4.8791 16.1793 4.74669 16.8166 4.74115C17.454 4.73561 18.086 4.85706 18.6759 5.09841C19.2658 5.33975 19.8018 5.69617 20.2525 6.14685C20.7031 6.59754 21.0596 7.13347 21.3009 7.72337C21.5423 8.31327 21.6637 8.94533 21.6582 9.58268C21.6526 10.22 21.5202 10.8499 21.2686 11.4355C21.0171 12.0211 20.6514 12.5508 20.193 12.9935L11.9994 21.1883L3.80577 12.9935C2.9059 12.0934 2.40039 10.8727 2.40039 9.59995C2.40039 8.32716 2.9059 7.10648 3.80577 6.20635V6.20635Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span>10</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.6004 8.34191C15.6004 10.3301 13.9886 11.9419 12.0004 11.9419C10.0122 11.9419 8.40039 10.3301 8.40039 8.34191M4.72766 20.9419H19.2731C20.5584 20.9419 21.6004 19.9193 21.6004 18.6579L20.1095 5.34188C20.1095 4.08045 19.0675 3.05786 17.7822 3.05786H5.92766C4.64235 3.05786 3.60039 4.08045 3.60039 5.34188L2.40039 18.6579C2.40039 19.9193 3.44235 20.9419 4.72766 20.9419Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span>1</span>
+            </a>
+          </li>
+        </ul>
+        <a href="#" class="header__link-login">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3.23828 19.5C4.56369 17.2892 7.46856 15.7762 12.0006 15.7762C16.5326 15.7762 19.4374 17.2892 20.7628 19.5M15.6006 8.1C15.6006 10.0882 13.9888 11.7 12.0006 11.7C10.0123 11.7 8.40056 10.0882 8.40056 8.1C8.40056 6.11177 10.0123 4.5 12.0006 4.5C13.9888 4.5 15.6006 6.11177 15.6006 8.1Z"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+          <span>Войти</span>
+        </a>
+      </div>
+      <div class="header__burger burger" id="burger">
+        <button class="burger__btn btn-reset">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="mobile" id="mobileMenu">
+        <div class="container mobile__container">
+          <div class="btn-close__box-close" id="mobileMenuClose">
+  <button class="btn-close__close btn-reset">
+    <span></span>
+    <span></span>
+  </button>
+</div>
+          <ul class="list-reset">
+            <li>
+              <a href="#"> hjgjhjkjkjb </a>
+            </li>
+            <li>
+              <a href="#"> dgdgege </a>
+            </li>
+            <li>
+              <a href="#"> egegegege </a>
+            </li>
+            <li>
+              <a href="#"> 111111 </a>
+            </li>
+            <li>
+              <a href="#"> dgegwergewrg </a>
+            </li>
+            <li>
+              <a href="#"> dgegwergewrg </a>
+            </li>
+            <li>
+              <a href="#"> dgegwergewrg </a>
+            </li>
+          </ul>
+          <div class="header__box-link-tel">
+            <p>Круглосуточно</p>
+            <a href="tel:79859199777">+7 985 919-97-77</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header__box-img">
+    <img src="img/header/beac/1.jpg" />
+  </div>
+</header>
+
+  <main class="main">
+    <div class="container">
+      <div class="navigator">
+  <a class="navigator__link" href="index.html">Главная</a>
+  <span class="navigator__span">//</span>
+  <p class="navigator__desc">Доставка и&nbsp;оплата</p>
+</div>
+    </div>
+    <section class="delivery-page__hero hero-delivery">
+      <div class="hero-delivery__container-top container">
+        <div class="hero-delivery__box-title">
+          <h2 class="hero-delivery__title title-one">
+            Доставка
+          </h2>
+          <p class="hero-delivery__desc">
+            Мы&nbsp;осуществляем доставку по&nbsp;Москве и&nbsp;МО
+          </p>
+          <p class="hero-delivery__desc">
+            Заказы принимаются c&nbsp;9:00 до&nbsp;22:00.
+          </p>
+        </div>
+      </div>
+      <div class="hero-delivery__container container">
+        <div class="hero-delivery__box-address">
+          <div class="hero-delivery__left hero-delivery__box">
+            <h3 class="hero-delivery__title-box">
+              <span>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.3333 6.66652V3.7504C13.3333 3.05728 13.3333 2.71072 13.1873 2.49775C13.0597 2.31167 12.8622 2.18527 12.6398 2.14742C12.3852 2.10411 12.0706 2.24933 11.4412 2.53979L4.04918 5.95151C3.48793 6.21056 3.20729 6.34008 3.00176 6.54096C2.82005 6.71854 2.68135 6.93531 2.59625 7.17471C2.5 7.44551 2.5 7.75459 2.5 8.37275V12.4998M13.75 12.0832H13.7583M2.5 9.33316V14.8332C2.5 15.7666 2.5 16.2333 2.68166 16.5898C2.84144 16.9034 3.09641 17.1584 3.41002 17.3182C3.76653 17.4998 4.23324 17.4998 5.16667 17.4998H14.8333C15.7667 17.4998 16.2335 17.4998 16.59 17.3182C16.9036 17.1584 17.1586 16.9034 17.3183 16.5898C17.5 16.2333 17.5 15.7666 17.5 14.8332V9.33316C17.5 8.39975 17.5 7.93306 17.3183 7.57654C17.1586 7.26293 16.9036 7.00796 16.59 6.84818C16.2335 6.66652 15.7667 6.66652 14.8333 6.66652H5.16667C4.23325 6.66652 3.76653 6.66652 3.41002 6.84817C3.09642 7.00796 2.84144 7.26293 2.68166 7.57654C2.5 7.93306 2.5 8.39975 2.5 9.33316ZM14.1667 12.0832C14.1667 12.3133 13.9801 12.4998 13.75 12.4998C13.5199 12.4998 13.3333 12.3133 13.3333 12.0832C13.3333 11.8531 13.5199 11.6665 13.75 11.6665C13.9801 11.6665 14.1667 11.8531 14.1667 12.0832Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+              Стоимость доставки по&nbsp;районам
+            </h3>
+            <ul class="hero-delivery__list list-reset">
+              <li class="hero-delivery__item">
+                <p class="hero-delivery__desc-item">
+                  Доставка в&nbsp;<span>Митино</span>&nbsp;&mdash; 300&nbsp;руб.
+                </p>
+              </li>
+              <li class="hero-delivery__item">
+                <p class="hero-delivery__desc-item">
+                  Доставка в&nbsp;<span>Шереметьево</span>&nbsp;&mdash; 600&nbsp;руб.
+                </p>
+              </li>
+              <li class="hero-delivery__item">
+                <p class="hero-delivery__desc-item">
+                  Доставка в&nbsp;<span>Фирсановку</span>&nbsp;&mdash; 500&nbsp;руб.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="hero-delivery__right hero-delivery__box">
+            <h3 class="hero-delivery__title-box">
+              <span>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 10.8333C11.3807 10.8333 12.5 9.714 12.5 8.33325C12.5 6.95254 11.3807 5.83325 10 5.83325C8.61925 5.83325 7.5 6.95254 7.5 8.33325C7.5 9.714 8.61925 10.8333 10 10.8333Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.9987 18.3334C13.332 15.0001 16.6654 12.0153 16.6654 8.33341C16.6654 4.65151 13.6806 1.66675 9.9987 1.66675C6.3168 1.66675 3.33203 4.65151 3.33203 8.33341C3.33203 12.0153 6.66536 15.0001 9.9987 18.3334Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+              Адреса салонов
+            </h3>
+            <ul class="hero-delivery__list list-reset">
+              <li class="hero-delivery__item">
+                <p class="hero-delivery__desc-item">
+                  Москва, улица Щепкина, 47с1
+                </p>
+              </li>
+              <li class="hero-delivery__item">
+                <p class="hero-delivery__desc-item">
+                  Москва, Авиамоторная улица, 20/17
+                </p>
+              </li>
+              <li class="hero-delivery__item">
+                <p class="hero-delivery__desc-item">
+                  Москва, Пятницкая улица, 29
+                </p>
+              </li>
+              <li class="hero-delivery__item">
+                <p class="hero-delivery__desc-item">
+                  Москва, улица Антонова-Овсеенко, 13с1
+                </p>
+              </li>
+              <li class="hero-delivery__item">
+                <p class="hero-delivery__desc-item">
+                  Москва, Шмитовский проезд, 23с4
+                </p>
+              </li>
+              <li class="hero-delivery__item">
+                <p class="hero-delivery__desc-item">
+                  Москва, Ленинградский проспект, 77к1
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="hero-delivery__box-info-top">
+          <h3>
+            В&nbsp;случае если вы&nbsp;не&nbsp;знаете адрес получателя, а&nbsp;знаете только телефон
+          </h3>
+          <p>
+              Перед доставкой заказа наши менеджеры контакт-центра созваниваются с&nbsp;получателем заказа и&nbsp;уточняют адрес и&nbsp;подходящее время доставки.
+          </p>
+          <p>
+              Если получателя не&nbsp;окажется по&nbsp;указанному адресу, курьер возвращает букет в&nbsp;салон. Повторная доставка осуществляется в&nbsp;случае доплаты за&nbsp;выезд курьера. По&nbsp;истечению 24&nbsp;часа с&nbsp;момента несостоявшейся доставки заказ оплачивается повторно, поскольку цветы являются скоропортящимся товаром. Если Вы&nbsp;отказываетесь от&nbsp;повторной доставки, стоимость заказа не&nbsp;возвращается, так как компанией были понесены полные расходы.
+          </p>
+        </div>
+        <div class="hero-delivery__box-info-centre">
+          <h3>
+            Бесконтактная доставка
+          </h3>
+          <p>
+            Регулярно проводится санитарная обработка рабочих помещений и&nbsp;комнат персонала. Для минимизации контактов мы&nbsp;предлагаем бесконтактную доставку цветов и&nbsp;подарков.
+          </p>
+        </div>
+        <div class="hero-delivery__box-info-bottom">
+          <h3 class="hero-delivery__title-info">
+            Процедура безопасной доставки выглядит следующим образом:
+          </h3>
+          <ul class="hero-delivery__list-info-bottom list-reset">
+            <li class="hero-delivery__item-info-bottom">
+              <span>1</span>
+              <p>По&nbsp;прибытии курьер осторожно размещает транспортировочную коробку с&nbsp;букетом в&nbsp;на&nbsp;указанном месте;</p>
+            </li>
+            <li class="hero-delivery__item-info-bottom">
+              <span>2</span>
+              <p>Затем курьер отходит на&nbsp;3&nbsp;метра от&nbsp;букета и&nbsp;звонит получателю, чтобы сообщить о&nbsp;готовности передачи букета.</p>
+            </li>
+            <li class="hero-delivery__item-info-bottom">
+              <span>3</span>
+              <p>Дожидаясь, когда получатель заберет букет&nbsp;&mdash; курьер уезжает</p>
+            </li>
+          </ul>
+        </div>
+        <div class="hero-delivery__map" id="map"></div>
+      </div>
+    </section>
+    <section class="delivery-page__payment payment-delivery">
+      <div class="payment-delivery__container container">
+        <h2 class="payment-delivery__title title-one">
+          Оплата
+        </h2>
+        <div class="payment-delivery__box-info">
+          <div class="payment-delivery__left hero-delivery__box">
+            <h3 class="payment-delivery__title-box">
+              При оформлении заказа у&nbsp;нас на&nbsp;сайте Вам доступны следующие способы оплаты:
+            </h3>
+            <h4 class="payment-delivery__point hero-delivery__title-box">
+              <span>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.5 17.5V13C12.5 12.5333 12.5 12.2999 12.4092 12.1217C12.3292 11.9648 12.2018 11.8374 12.045 11.7575C11.8668 11.6667 11.6334 11.6667 11.1667 11.6667H8.83333C8.36658 11.6667 8.13327 11.6667 7.95501 11.7575C7.79821 11.8374 7.67072 11.9648 7.59082 12.1217C7.5 12.2999 7.5 12.5333 7.5 13V17.5M15.8333 17.5V5.16667C15.8333 4.23325 15.8333 3.76653 15.6517 3.41002C15.4919 3.09641 15.2369 2.84144 14.9233 2.68166C14.5668 2.5 14.1001 2.5 13.1667 2.5H6.83333C5.89991 2.5 5.4332 2.5 5.07668 2.68166C4.76307 2.84144 4.50811 3.09641 4.34832 3.41002C4.16667 3.76653 4.16667 4.23325 4.16667 5.16667V17.5M17.5 17.5H2.5M7.91667 6.66667H7.925M12.0833 6.66667H12.0917M8.33333 6.66667C8.33333 6.89678 8.14678 7.08333 7.91667 7.08333C7.68655 7.08333 7.5 6.89678 7.5 6.66667C7.5 6.43655 7.68655 6.25 7.91667 6.25C8.14678 6.25 8.33333 6.43655 8.33333 6.66667ZM12.5 6.66667C12.5 6.89678 12.3134 7.08333 12.0833 7.08333C11.8532 7.08333 11.6667 6.89678 11.6667 6.66667C11.6667 6.43655 11.8532 6.25 12.0833 6.25C12.3134 6.25 12.5 6.43655 12.5 6.66667Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+              В&nbsp;салоне:
+            </h4>
+            <ul class="payment-delivery__list">
+              <li class="payment-delivery__item">
+                <span></span>
+                Наличными в&nbsp;салоне при самовывозе;
+              </li>
+              <li class="payment-delivery__item">
+                <span></span>
+                Банковской картой в&nbsp;салоне при самовывозе;
+              </li>
+              <li class="payment-delivery__item">
+                <span></span>
+                Оплата по&nbsp;QR-коду.
+              </li>
+            </ul>
+            <h4 class="payment-delivery__point hero-delivery__title-box">
+              <span>
+                <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.3346 12L15.0013 13.6667L18.3346 10.3334M18.3346 5.33335H1.66797M18.3346 7.00002V3.83335C18.3346 2.89994 18.3346 2.43322 18.153 2.0767C17.9932 1.7631 17.7382 1.50814 17.4246 1.34835C17.0681 1.16669 16.6014 1.16669 15.668 1.16669H4.33463C3.40122 1.16669 2.9345 1.16669 2.57799 1.34835C2.26439 1.50813 2.00941 1.7631 1.84963 2.0767C1.66797 2.43322 1.66797 2.89994 1.66797 3.83335V10.1667C1.66797 11.1001 1.66797 11.5669 1.84963 11.9234C2.00941 12.2369 2.26438 12.4919 2.57799 12.6517C2.9345 12.8334 3.40122 12.8334 4.33463 12.8334H10.0013" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+              Онлайн
+            </h4>
+            <ul class="payment-delivery__list">
+              <li class="payment-delivery__item">
+                <span></span>
+                Банковские карты: Visa, MasterCard, Maestro, Мир;
+              </li>
+              <li class="payment-delivery__item">
+                <span></span>
+                Электронные деньги: Яндекс.Деньги, WebMoney, QIWI Кошелек;
+              </li>
+              <li class="payment-delivery__item">
+                <span></span>
+                Интернет-банкинг: Сбербанк Онлайн, Альфа-Клик, Интернет-банк Промсвязьбанка, MasterPass;
+              </li>
+              <li class="payment-delivery__item">
+                <span></span>
+                QR-код.
+              </li>
+            </ul>
+          </div>
+          <div class="payment-delivery__right hero-delivery__box">
+            <div class="payment-delivery__box-top">
+              <h3 class="payment-delivery__title-box">
+                Дополнительно
+              </h3>
+              <p class="payment-delivery__desc">
+                Безналичным расчетом (выставление счета по&nbsp;вашим реквизитам).
+              </p>
+              <h4 class="payment-delivery__point hero-delivery__title-box">
+                <span>
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.3346 8.33333H1.66797M9.16797 15.8333H15.668C16.6014 15.8333 17.0681 15.8333 17.4246 15.6517C17.7382 15.4919 17.9932 15.2369 18.153 14.9233C18.3346 14.5668 18.3346 14.1001 18.3346 13.1667V6.83333C18.3346 5.89992 18.3346 5.4332 18.153 5.07668C17.9932 4.76308 17.7382 4.50812 17.4246 4.34832C17.0681 4.16667 16.6014 4.16667 15.668 4.16667H14.168M9.16797 15.8333L10.8346 17.5M9.16797 15.8333L10.8346 14.1667M5.83463 15.8333H4.33463C3.40121 15.8333 2.9345 15.8333 2.57799 15.6517C2.26438 15.4919 2.00941 15.2369 1.84963 14.9233C1.66797 14.5668 1.66797 14.1001 1.66797 13.1667V6.83333C1.66797 5.89992 1.66797 5.4332 1.84963 5.07668C2.00941 4.76307 2.26439 4.50811 2.57799 4.34832C2.9345 4.16667 3.40122 4.16667 4.33463 4.16667H10.8346M10.8346 4.16667L9.16797 5.83333M10.8346 4.16667L9.16797 2.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+                Возврат денежных средств в&nbsp;случае безналичной оплаты производится в&nbsp;течение 3-4 рабочих дней.
+              </h4>
+            </div>
+            <div class="payment-delivery__box-bottom">
+              <span class="payment-delivery__span-pay">
+                <picture>
+                  <source srcset="img/delivery/visa(375).png" media="(max-width: 650px)">
+                  <img class="payment-delivery__img" src="img/delivery/visa.png" alt="VISA">
+                </picture>
+              </span>
+              <span class="payment-delivery__span-pay">
+                <picture>
+                  <source srcset="img/delivery/mc(375).png" media="(max-width: 650px)">
+                  <img class="payment-delivery__img" src="img/delivery/mc.png" alt="MC">
+                </picture>
+              </span>
+              <span class="payment-delivery__span-pay">
+                <picture>
+                  <source srcset="img/delivery/mir(375).png" media="(max-width: 650px)">
+                  <img class="payment-delivery__img" src="img/delivery/mir.png" alt="MIR">
+                </picture>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="delivery-page__refund refund-delivery">
+      <div class="refund-delivery__container container">
+        <h2 class="refund-delivery__title title-one">
+          Правила возврата
+        </h2>
+        <p class="refund-delivery__desc">
+          Клиент вправе отказаться от&nbsp;заказанной продукции до&nbsp;момента доставки, либо в&nbsp;момент приема товара. Возврат букета после передачи невозможен.
+        </p>
+        <ul class="refund-delivery__list">
+          <li class="refund-delivery__item">
+            <p>
+              В&nbsp;случае, если получатель не&nbsp;находился по&nbsp;адресу, который был указан заказчиком, компания имеет право потребовать оплату за&nbsp;доставку на&nbsp;другой адрес.
+            </p>
+          </li>
+          <li class="refund-delivery__item">
+            <p>
+              В&nbsp;случае, если получатель отказался принять букет, либо может принять его исключительно в&nbsp;другой день, компания может предложить свежий букет в&nbsp;новую оговоренную дату, согласовав ее&nbsp;с&nbsp;заказчиком или получателем. Возврат средств за&nbsp;отправленный букет невозможен.
+            </p>
+          </li>
+          <li class="refund-delivery__item">
+            <p>
+              В&nbsp;случае, если заказчик принял товар, и&nbsp;считает, что получил товар ненадлежащего качества, он&nbsp;вправе в&nbsp;течение 24&nbsp;часов с&nbsp;момента получения подать рекламацию, приложив подробное описание проблемы и&nbsp;фотоматериалы. Руководство обязуется в&nbsp;течение 6&nbsp;часов рассмотреть полученную рекламацию и&nbsp;дать по&nbsp;ней ответ. В&nbsp;случае, если подтверждается факт отправки некачественного товара, компания предложит возврат средств или замену букета в&nbsp;пределах суммы заказа.
+            </p>
+          </li>
+          <li class="refund-delivery__item">
+            <p>
+              При оплате картами, возврат наличными денежными средствами не&nbsp;допускается. Порядок возврата регулируется правилами международных платежных систем.
+            </p>
+          </li>
+          <li class="refund-delivery__item">
+            <p>
+              Для возврата денежных средств по&nbsp;операциям проведенными с&nbsp;ошибками необходимо обратиться с&nbsp;письменным заявлением и&nbsp;приложением копии паспорта и&nbsp;чеков подтверждающих ошибочное списание. Уточнить электронную почту для заявлений можно по&nbsp;любому размещенном на&nbsp;сайте номеру телефона.
+            </p>
+          </li>
+          <li class="refund-delivery__item">
+            <p>
+              Срок рассмотрения Заявления и&nbsp;возврата денежных средств&nbsp;&mdash; 2&nbsp;рабочих дня.
+            </p>
+          </li>
+        </ul>
+        <div class="refund-delivery__box-banner">
+          <div class="card4">
+  <div class="card4__logo-box">
+    <a class="card4__link-logo" href="/">
+      <img class="card4__logo" src="img/products-new/logo.png">
+    </a>
+  </div>
+  <div class="card4__desc-group">
+    <p class="card4__desc-top">
+      Не&nbsp;нашли, что искали?
+    </p>
+    <p class="card4__desc-bottom">
+      Соберём букет&nbsp;по вашим пожеланиям
+    </p>
+  </div>
+  <a class="card4__btn btn-one btn-reset">
+    Выбрать букет
+  </a>
+</div>
+          <div class="card8">
+  <p class="card8__title-advertisement">
+    Букеты корпоративным клиентам
+  </p>
+  <p class="card8__desc-advertisement">
+    Хотите сделать заказ для компании? Свяжитесь с&nbsp;нами или опишите задачу.
+  </p>
+  <a class="card8__link-advertisement card2__link" href="#">
+    Оформить подписку
+  </a>
+</div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__content">
+      <div class="footer__left">
+        <a class="footer__link-logo" href="/">
+          <img class="footer__img-logo" src="img/header/logo.png" alt="Лого">
+        </a>
+        <p class="footer__desc">
+          Сервис быстрой доставки цветов
+        </p>
+      </div>
+      <div class="footer__centre-one">
+        <h3 class="footer__title">
+          Информация
+        </h3>
+        <nav class="footer__nav footer__nav-one">
+          <ul class="footer__list footer__list-one list-reset">
+            <li class="footer__item">
+              <a class="footer__link" href="form_payment.html">
+                О&nbsp;компании
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="order_history.html">
+                Доставка и&nbsp;оплата
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="bonus_program.html">
+                Адреса магазинов
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="bonus.html">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__centre-two">
+        <h3 class="footer__title">
+          Разделы
+        </h3>
+        <nav class="footer__nav footer__nav-two">
+          <ul class="footer__list footer__list-two list-reset">
+            <li class="footer__item">
+              <a class="footer__link" href="shipping_method.html">
+                Цветы
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="my_appeals.html">
+                Букеты
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="personal_data.html">
+                Повод
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="catalog.html">
+                Розы
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="order.html">
+                Акции
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="basket.html">
+                Подарки
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__right">
+        <h3 class="footer__title">
+          Контакты
+        </h3>
+        <div class="footer__box-contacts">
+          <a class="footer__link-contacts" href="tel:+79635712559">
+            8&nbsp;963&nbsp;571&nbsp;-&nbsp;25&nbsp;-&nbsp;59
+          </a>
+          <button class="footer__link-order btn-reset open-modal" id="modal1">
+            Закать звонок
+          </button>
+        </div>
+        <div class="footer__box-link">
+          <a class="header__link-write footer__link-write" href="#">
+            <img src="img/header/icon/WA.png" alt="Напишите нам">
+            <span>Написать&nbsp;в&nbsp;WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom-box">
+      <p class="footer__desc-bottom">
+        &copy;&nbsp;2024 Цветы столицы, Все права защищены
+      </p>
+      <a class="footer__link-bottom" href="#">
+        Политика конфиденциальности
+      </a>
+    </div>
+  </div>
+  <!--Открытие и закрытие модального окна завязано на "id конпки" и на атрибуте "data-modal-id" у модалки-->
+<div class="modal-call" data-modal-id="modal1">
+  <div class="modal-call__wrapp">
+    <div class="modal-call__close-wrapp">
+      <button class="modal-call__close btn-reset">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <form class="modal-call__form" id="phoneForm">
+      <h3 class="modal-call__title">
+        Заказать звонок
+      </h3>
+      <label class="modal-call__leabel" for="tel">Телефон</label>
+      <input class="modal-call__input" id="tel" name="tel">
+      <button class="modal-call__btn btn-reset btn-one" id="submit">
+        Заказать
+      </button>
+    </form>
+  </div>
+</div>
+</footer>
+</body>
+</html>

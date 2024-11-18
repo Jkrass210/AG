@@ -1,0 +1,1790 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>catalog</title>
+      <link href="css/normalize.min.css" rel="stylesheet">
+      <link href="css/swiper-bundle.min.css" rel="stylesheet">
+      <link href="css/style.min.css" rel="stylesheet">
+
+      <script src="js/swiper-bundle.min.js" defer></script>
+      <script src="js/swiper-bundle.min.js.map" defer></script>
+      <script src="js/main.min.js" defer></script>
+</head>
+<body>
+  <!--Если добавить класс "header-light" хедер перестоится в стандартный-->
+<header class="header header-light">
+  <div class="container header__container">
+    <div class="header__content">
+      <div class="header__logo-box">
+        <a href="/" class="header__logo"> анютины глазки </a>
+      </div>
+      <div class="header__shops-box">
+        <p>4 магазина</p>
+        <a href="#">Открыть на карте</a>
+      </div>
+      <div class="header__rating rating">
+        <a href="#">Рейтинг в яндексе</a>
+        <div class="rating__box-bottom">
+          <p>4.8</p>
+          <div class="rating__box-star">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.92369 13.1047L3.553 15.9002C3.26795 16.0998 2.88788 15.9002 2.69785 15.7005C2.69785 15.5008 2.60283 15.401 2.69785 15.2013L3.93305 9.9099L0.227458 6.91477C-0.0575877 6.7151 -0.0575935 6.21591 0.132437 6.01623C0.227453 5.91639 0.417483 5.81656 0.607514 5.71672L5.35828 5.31737L7.35361 0.425322C7.44863 0.125809 7.82868 -0.073867 8.20874 0.0259707C8.39877 0.0259707 8.4938 0.225647 8.58881 0.425322L10.5841 5.31737L15.4299 5.71672C15.81 5.71672 16 6.11607 16 6.41558C16 6.61526 15.905 6.81493 15.715 6.91477L12.0094 9.9099L13.2446 15.2013C13.2446 15.6006 13.1495 15.9002 12.7695 16C12.5795 16 12.3894 16 12.2944 16L7.92369 13.2045V13.1047Z"
+                fill="#FFD43E"
+              />
+            </svg>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.92369 13.1047L3.553 15.9002C3.26795 16.0998 2.88788 15.9002 2.69785 15.7005C2.69785 15.5008 2.60283 15.401 2.69785 15.2013L3.93305 9.9099L0.227458 6.91477C-0.0575877 6.7151 -0.0575935 6.21591 0.132437 6.01623C0.227453 5.91639 0.417483 5.81656 0.607514 5.71672L5.35828 5.31737L7.35361 0.425322C7.44863 0.125809 7.82868 -0.073867 8.20874 0.0259707C8.39877 0.0259707 8.4938 0.225647 8.58881 0.425322L10.5841 5.31737L15.4299 5.71672C15.81 5.71672 16 6.11607 16 6.41558C16 6.61526 15.905 6.81493 15.715 6.91477L12.0094 9.9099L13.2446 15.2013C13.2446 15.6006 13.1495 15.9002 12.7695 16C12.5795 16 12.3894 16 12.2944 16L7.92369 13.2045V13.1047Z"
+                fill="#FFD43E"
+              />
+            </svg>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.92369 13.1047L3.553 15.9002C3.26795 16.0998 2.88788 15.9002 2.69785 15.7005C2.69785 15.5008 2.60283 15.401 2.69785 15.2013L3.93305 9.9099L0.227458 6.91477C-0.0575877 6.7151 -0.0575935 6.21591 0.132437 6.01623C0.227453 5.91639 0.417483 5.81656 0.607514 5.71672L5.35828 5.31737L7.35361 0.425322C7.44863 0.125809 7.82868 -0.073867 8.20874 0.0259707C8.39877 0.0259707 8.4938 0.225647 8.58881 0.425322L10.5841 5.31737L15.4299 5.71672C15.81 5.71672 16 6.11607 16 6.41558C16 6.61526 15.905 6.81493 15.715 6.91477L12.0094 9.9099L13.2446 15.2013C13.2446 15.6006 13.1495 15.9002 12.7695 16C12.5795 16 12.3894 16 12.2944 16L7.92369 13.2045V13.1047Z"
+                fill="#FFD43E"
+              />
+            </svg>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.92369 13.1047L3.553 15.9002C3.26795 16.0998 2.88788 15.9002 2.69785 15.7005C2.69785 15.5008 2.60283 15.401 2.69785 15.2013L3.93305 9.9099L0.227458 6.91477C-0.0575877 6.7151 -0.0575935 6.21591 0.132437 6.01623C0.227453 5.91639 0.417483 5.81656 0.607514 5.71672L5.35828 5.31737L7.35361 0.425322C7.44863 0.125809 7.82868 -0.073867 8.20874 0.0259707C8.39877 0.0259707 8.4938 0.225647 8.58881 0.425322L10.5841 5.31737L15.4299 5.71672C15.81 5.71672 16 6.11607 16 6.41558C16 6.61526 15.905 6.81493 15.715 6.91477L12.0094 9.9099L13.2446 15.2013C13.2446 15.6006 13.1495 15.9002 12.7695 16C12.5795 16 12.3894 16 12.2944 16L7.92369 13.2045V13.1047Z"
+                fill="#FFD43E"
+              />
+            </svg>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.92369 13.1047L3.553 15.9002C3.26795 16.0998 2.88788 15.9002 2.69785 15.7005C2.69785 15.5008 2.60283 15.401 2.69785 15.2013L3.93305 9.9099L0.227458 6.91477C-0.0575877 6.7151 -0.0575935 6.21591 0.132437 6.01623C0.227453 5.91639 0.417483 5.81656 0.607514 5.71672L5.35828 5.31737L7.35361 0.425322C7.44863 0.125809 7.82868 -0.073867 8.20874 0.0259707C8.39877 0.0259707 8.4938 0.225647 8.58881 0.425322L10.5841 5.31737L15.4299 5.71672C15.81 5.71672 16 6.11607 16 6.41558C16 6.61526 15.905 6.81493 15.715 6.91477L12.0094 9.9099L13.2446 15.2013C13.2446 15.6006 13.1495 15.9002 12.7695 16C12.5795 16 12.3894 16 12.2944 16L7.92369 13.2045V13.1047Z"
+                fill="#FFD43E"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="header__box-link-tel">
+        <p>Круглосуточно</p>
+        <a href="tel:79859199777">+7 985 919-97-77</a>
+      </div>
+      <div class="header__box-links">
+        <ul class="list-reset">
+          <li>
+            <a href="#">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.9265 17.0401L20.3996 20.4001M19.2796 11.4401C19.2796 15.77 15.7695 19.2801 11.4396 19.2801C7.1097 19.2801 3.59961 15.77 3.59961 11.4401C3.59961 7.11019 7.1097 3.6001 11.4396 3.6001C15.7695 3.6001 19.2796 7.11019 19.2796 11.4401Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.80577 6.20635C4.7059 5.30649 5.92658 4.80097 7.19936 4.80097C8.47215 4.80097 9.69283 5.30649 10.593 6.20635L11.9994 7.61155L13.4058 6.20635C13.8485 5.7479 14.3782 5.38223 14.9638 5.13066C15.5494 4.8791 16.1793 4.74669 16.8166 4.74115C17.454 4.73561 18.086 4.85706 18.6759 5.09841C19.2658 5.33975 19.8018 5.69617 20.2525 6.14685C20.7031 6.59754 21.0596 7.13347 21.3009 7.72337C21.5423 8.31327 21.6637 8.94533 21.6582 9.58268C21.6526 10.22 21.5202 10.8499 21.2686 11.4355C21.0171 12.0211 20.6514 12.5508 20.193 12.9935L11.9994 21.1883L3.80577 12.9935C2.9059 12.0934 2.40039 10.8727 2.40039 9.59995C2.40039 8.32716 2.9059 7.10648 3.80577 6.20635V6.20635Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span>10</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.6004 8.34191C15.6004 10.3301 13.9886 11.9419 12.0004 11.9419C10.0122 11.9419 8.40039 10.3301 8.40039 8.34191M4.72766 20.9419H19.2731C20.5584 20.9419 21.6004 19.9193 21.6004 18.6579L20.1095 5.34188C20.1095 4.08045 19.0675 3.05786 17.7822 3.05786H5.92766C4.64235 3.05786 3.60039 4.08045 3.60039 5.34188L2.40039 18.6579C2.40039 19.9193 3.44235 20.9419 4.72766 20.9419Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span>1</span>
+            </a>
+          </li>
+        </ul>
+        <a href="#" class="header__link-login">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3.23828 19.5C4.56369 17.2892 7.46856 15.7762 12.0006 15.7762C16.5326 15.7762 19.4374 17.2892 20.7628 19.5M15.6006 8.1C15.6006 10.0882 13.9888 11.7 12.0006 11.7C10.0123 11.7 8.40056 10.0882 8.40056 8.1C8.40056 6.11177 10.0123 4.5 12.0006 4.5C13.9888 4.5 15.6006 6.11177 15.6006 8.1Z"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+          <span>Войти</span>
+        </a>
+      </div>
+      <div class="header__burger burger" id="burger">
+        <button class="burger__btn btn-reset">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="mobile" id="mobileMenu">
+        <div class="container mobile__container">
+          <div class="btn-close__box-close" id="mobileMenuClose">
+  <button class="btn-close__close btn-reset">
+    <span></span>
+    <span></span>
+  </button>
+</div>
+          <ul class="list-reset">
+            <li>
+              <a href="#"> hjgjhjkjkjb </a>
+            </li>
+            <li>
+              <a href="#"> dgdgege </a>
+            </li>
+            <li>
+              <a href="#"> egegegege </a>
+            </li>
+            <li>
+              <a href="#"> 111111 </a>
+            </li>
+            <li>
+              <a href="#"> dgegwergewrg </a>
+            </li>
+            <li>
+              <a href="#"> dgegwergewrg </a>
+            </li>
+            <li>
+              <a href="#"> dgegwergewrg </a>
+            </li>
+          </ul>
+          <div class="header__box-link-tel">
+            <p>Круглосуточно</p>
+            <a href="tel:79859199777">+7 985 919-97-77</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header__box-img">
+    <img src="img/header/beac/1.jpg" />
+  </div>
+</header>
+
+  <main class="main container">
+    <div class="navigator">
+  <a class="navigator__link" href="index.html">Главная</a>
+  <span class="navigator__span">//</span>
+  <p class="navigator__desc">Каталог</p>
+</div>
+    <div class="catalog-page catalog-page__content">
+      <div class="title1">
+  <h1 class="title1__title title-one">
+    Монобукеты
+  </h1>
+  <span class="title1__counter">
+    <span class="title1__counter-number">103</span> товара
+  </span>
+</div>
+      <div class="catalog-page__memu-sort">
+        <form action="#" class="filters" id="filters">
+  <div class="filters__header">
+    <h3 class="filters__title">
+      Фильтры
+    </h3>
+    <div class="btn-close__box-close" id="filtersClose">
+  <button class="btn-close__close btn-reset">
+    <span></span>
+    <span></span>
+  </button>
+</div>
+  </div>
+  <div class="filters__main">
+    <div class="filters__chapter">
+      <h4 class="filters__title-one">
+        Цветы
+      </h4>
+      <ul class="filters__points list-reset">
+        <li class="filters__item">
+          <label class="filters__label" for="monobucketRoses">
+            <input class="filters__input" type="checkbox" id="monobucketRoses">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            Монобукет из&nbsp;роз
+          </label>
+        </li>
+        <li class="filters__item">
+          <!--при добавлнении на label класса "disabled" чекбокс становиться не кликабельным и полупрозрачным-->
+          <label class="filters__label disabled" for="roses">
+            <input class="filters__input" type="checkbox" id="roses">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            Розы
+          </label>
+        </li>
+        <li class="filters__item">
+          <label class="filters__label disabled" for="carnations">
+            <input class="filters__input" type="checkbox" id="carnations">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            Гвоздики
+          </label>
+        </li>
+        <li class="filters__item">
+          <label class="filters__label" for="dahlias">
+            <input class="filters__input" type="checkbox" id="dahlias">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            Георгины
+          </label>
+        </li>
+        <li class="filters__item">
+          <label class="filters__label" for="hyacinths">
+            <input class="filters__input" type="checkbox" id="hyacinths">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            Гиацинты
+          </label>
+        </li>
+        <li class="filters__item">
+          <label class="filters__label" for="gerberas">
+            <input class="filters__input" type="checkbox" id="gerberas">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            Герберы
+          </label>
+        </li>
+      </ul>
+    </div>
+    <div class="filters__chapter">
+      <h4 class="filters__title-one">
+        Состав
+      </h4>
+      <ul class="filters__points list-reset">
+        <li class="filters__item">
+          <label class="filters__label" for="monobucket">
+            <input class="filters__input" type="checkbox" id="monobucket">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            Монобукеты
+          </label>
+        </li>
+        <li class="filters__item">
+          <label class="filters__label" for="bouquets">
+            <input class="filters__input" type="checkbox" id="bouquets">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            Букеты
+          </label>
+        </li>
+        <li class="filters__item">
+          <label class="filters__label" for="baskets">
+            <input class="filters__input" type="checkbox" id="baskets">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            Корзины
+          </label>
+        </li>
+        <li class="filters__item">
+          <label class="filters__label" for="boxes">
+            <input class="filters__input" type="checkbox" id="boxes">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            Коробки
+          </label>
+        </li>
+        <li class="filters__item">
+          <label class="filters__label" for="oneRoses">
+            <input class="filters__input" type="checkbox" id="oneRoses">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            Розы
+          </label>
+        </li>
+        <li class="filters__item">
+          <label class="filters__label" for="gifts">
+            <input class="filters__input" type="checkbox" id="gifts">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            Подарки
+          </label>
+        </li>
+      </ul>
+    </div>
+    <div class="filters__chapter">
+      <h4 class="filters__title-one">
+        Цена
+      </h4>
+      <ul class="filters__points list-reset">
+        <li class="filters__item">
+          <label class="filters__label" for="upTo5000">
+            <input class="filters__input" type="checkbox" id="upTo5000">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            до&nbsp;5000&nbsp;₽
+          </label>
+        </li>
+        <li class="filters__item">
+          <label class="filters__label" for="5000to10000">
+            <input class="filters__input" type="checkbox" id="5000to10000">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            от&nbsp;5000 до&nbsp;10000&nbsp;₽
+          </label>
+        </li>
+        <li class="filters__item">
+          <label class="filters__label" for="from10000">
+            <input class="filters__input" type="checkbox" id="from10000">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            от&nbsp;10000&nbsp;₽
+          </label>
+        </li>
+      </ul>
+    </div>
+    <div class="filters__chapter">
+      <h4 class="filters__title-one">
+        Повод
+      </h4>
+      <ul class="filters__points list-reset">
+        <li class="filters__item">
+          <label class="filters__label" for="occasion">
+            <input class="filters__input" type="checkbox" id="occasion">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            Повод
+          </label>
+        </li>
+        <li class="filters__item">
+          <label class="filters__label" for="wedding">
+            <input class="filters__input" type="checkbox" id="wedding">
+            <span class="filters__checkbox-span">
+              <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65702 1.66753C9.88892 1.43082 9.88892 1.04705 9.65702 0.810341C9.42512 0.573636 9.04914 0.573636 8.81724 0.810341L4.20387 5.51932L1.75882 3.0236C1.52692 2.7869 1.15094 2.7869 0.919042 3.0236C0.687142 3.26031 0.687142 3.64408 0.919042 3.88079L3.7585 6.77909C3.87064 6.89357 4.01649 6.95268 4.16344 6.95643C4.33559 6.97501 4.51417 6.91696 4.64612 6.78228L9.65702 1.66753Z" fill="white" />
+              </svg>
+            </span>
+            Свадьба
+          </label>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="filters__footer">
+    <button class="filters__btn btn-one btn-reset" id="submit">
+      <span>Показать <span class="filters__numder">104</span> букета</span>
+    </button>
+    <div class="filters__bpx-btn">
+      <button class="filters__throw-off btn-reset" id="throwOffFilters">
+        Сбросить
+      </button>
+    </div>
+  </div>
+</form>
+        <button class="catalog-page__btn-first btn-reset" id="btnFilters">
+          <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 1.75C0 1.41848 0.131696 1.10054 0.366117 0.866117C0.600537 0.631696 0.918479 0.5 1.25 0.5H18.75C19.0815 0.5 19.3995 0.631696 19.6339 0.866117C19.8683 1.10054 20 1.41848 20 1.75C20 2.08152 19.8683 2.39946 19.6339 2.63388C19.3995 2.8683 19.0815 3 18.75 3H1.25C0.918479 3 0.600537 2.8683 0.366117 2.63388C0.131696 2.39946 0 2.08152 0 1.75ZM2.5 8C2.5 7.66848 2.6317 7.35054 2.86612 7.11612C3.10054 6.8817 3.41848 6.75 3.75 6.75H16.25C16.5815 6.75 16.8995 6.8817 17.1339 7.11612C17.3683 7.35054 17.5 7.66848 17.5 8C17.5 8.33152 17.3683 8.64946 17.1339 8.88388C16.8995 9.1183 16.5815 9.25 16.25 9.25H3.75C3.41848 9.25 3.10054 9.1183 2.86612 8.88388C2.6317 8.64946 2.5 8.33152 2.5 8ZM5 14.25C5 13.9185 5.1317 13.6005 5.36612 13.3661C5.60054 13.1317 5.91848 13 6.25 13H13.75C14.0815 13 14.3995 13.1317 14.6339 13.3661C14.8683 13.6005 15 13.9185 15 14.25C15 14.5815 14.8683 14.8995 14.6339 15.1339C14.3995 15.3683 14.0815 15.5 13.75 15.5H6.25C5.91848 15.5 5.60054 15.3683 5.36612 15.1339C5.1317 14.8995 5 14.5815 5 14.25Z" fill="currentColor" />
+          </svg>
+        </button>
+
+        <div class="catalog-page__drop-wrapp category-drop">
+          <p class="catalog-page__name">
+            Категория:
+          </p>
+          <div class="catalog-page__box-drop-down">
+            <button class="catalog-page__btn btn-reset">
+              <span>Букеты</span>
+              <span>
+                <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L4 3.37564L7 1" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </button>
+            <ul class="catalog-page__list-drop list-reset">
+              <li class="catalog-page__item-drop">
+                <a class="catalog-page__link-drop" href="#">
+                  Монобукеты
+                </a>
+              </li>
+              <li class="catalog-page__item-drop">
+                <a class="catalog-page__link-drop" href="#">
+                  Букеты
+                </a>
+              </li>
+              <li class="catalog-page__item-drop">
+                <a class="catalog-page__link-drop" href="#">
+                  Корзины
+                </a>
+              </li>
+              <li class="catalog-page__item-drop">
+                <a class="catalog-page__link-drop" href="#">
+                  Коробки
+                </a>
+              </li>
+              <li class="catalog-page__item-drop">
+                <a class="catalog-page__link-drop" href="#">
+                  Розы
+                </a>
+              </li>
+              <li class="catalog-page__item-drop">
+                <a class="catalog-page__link-drop" href="#">
+                  Подарки
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="catalog-page__drop-wrapp sort-drop">
+          <p class="catalog-page__name">
+            Сортировать:
+          </p>
+          <div class="catalog-page__box-drop-down">
+            <button class="catalog-page__btn btn-reset">
+              <span>по цене</span>
+              <span>
+                <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L4 3.37564L7 1" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </button>
+            <ul class="catalog-page__list-drop list-reset">
+              <li class="catalog-page__item-drop">
+                <a class="catalog-page__link-drop" href="#">
+                  до&nbsp;5000&nbsp;₽
+                </a>
+              </li>
+              <li class="catalog-page__item-drop">
+                <a class="catalog-page__link-drop" href="#">
+                  от&nbsp;5000&nbsp;до&nbsp;10000&nbsp;₽
+                </a>
+              </li>
+              <li class="catalog-page__item-drop">
+                <a class="catalog-page__link-drop" href="#">
+                  от&nbsp;10000&nbsp;₽
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="catalog-page__box-view">
+          <p class="catalog-page__name">
+            Вид:
+          </p>
+          <button class="catalog-page__btn catalog-page__btn-view btn-reset">
+            <!--При добавлении спану класса "catalog-page__btn-left--active" становится черным-->
+            <span class="catalog-page__btn-left">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+            <!--При удалении у спана класса "catalog-page__btn-right--active" становится серым-->
+            <span class="catalog-page__btn-right catalog-page__btn-right--active">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M2 8C0.895431 8 0 8.89543 0 10V12C0 13.1046 0.89543 14 2 14H4C5.10457 14 6 13.1046 6 12V10C6 8.89543 5.10457 8 4 8H2ZM6 4V2C6 0.895431 5.10457 0 4 0H2C0.895431 0 0 0.89543 0 2V4C0 5.10457 0.89543 6 2 6H4C5.10457 6 6 5.10457 6 4ZM2 2V4H4V2L2 2ZM10 2V4H12V2L10 2ZM4 10H2L2 12H4V10ZM10 10V12H12V10H10ZM8 2C8 0.89543 8.89543 0 10 0H12C13.1046 0 14 0.895431 14 2V4C14 5.10457 13.1046 6 12 6H10C8.89543 6 8 5.10457 8 4V2ZM8 10C8 8.89543 8.89543 8 10 8H12C13.1046 8 14 8.89543 14 10V12C14 13.1046 13.1046 14 12 14H10C8.89543 14 8 13.1046 8 12V10Z" fill="currentColor" />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+      <div class="catalog-page__catalog">
+        <ul class="catalog-page__list list-reset">
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/1.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Букет цветов из&nbsp;51&nbsp;красной розы
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/2.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Букет из&nbsp;101 розовой розы 40&nbsp;см в&nbsp;крафте, 101&nbsp;роза, 40&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/3.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Букет из&nbsp;51&nbsp;розовой розы в&nbsp;форме сердца Кения 40&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/4.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Монобукет, 17&nbsp;шт роза кустовая, пионовидная роза, гвоздика, 50&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/2.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Букет из&nbsp;101 розовой розы 40&nbsp;см в&nbsp;крафте, 101&nbsp;роза, 40&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/1.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Монобукет, 17&nbsp;шт роза кустовая, пионовидная роза, гвоздика, 50&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/4.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Монобукет, 17&nbsp;шт роза кустовая, пионовидная роза, гвоздика, 50&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/2.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Букет из&nbsp;101 розовой розы 40&nbsp;см в&nbsp;крафте, 101&nbsp;роза, 40&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+        </ul>
+      </div>
+      <div class="catalog-page__box-banner">
+        <div class="catalog-page__info">
+          <p class="catalog-page__title-info">
+            Лучший подарок для&nbsp;вашей половинки
+          </p>
+          <div class="catalog-page__bottom-info">
+            <p class="catalog-page__desc-info">
+              Букет из 51 розовой розы в форме сердца Кения 40 см
+            </p>
+            <div class="catalog-page__box-price">
+              <p class="catalog-page__price">
+                <span>2&nbsp;700&nbsp;₽</span>
+                <span>3&nbsp;790&nbsp;₽</span>
+              </p>
+              <button class="catalog-page__btn-info btn-one btn-reset">
+                Заказать
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="catalog-page__img-box">
+          <picture>
+            <source srcset="img/catalog-page/box-banner/img(375).jpg" media="(max-width: 810px)">
+            <source srcset="img/catalog-page/box-banner/img(835).jpg" media="(max-width: 1200px)">
+            <img class="catalog-page__img" src="img/catalog-page/box-banner/img.jpg" alt="img">
+          </picture>
+        </div>
+      </div>
+      <div class="catalog-page__catalog">
+        <ul class="catalog-page__list list-reset">
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/1.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Букет цветов из&nbsp;51&nbsp;красной розы
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/2.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Букет из&nbsp;101 розовой розы 40&nbsp;см в&nbsp;крафте, 101&nbsp;роза, 40&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/3.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Букет из&nbsp;51&nbsp;розовой розы в&nbsp;форме сердца Кения 40&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/4.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Монобукет, 17&nbsp;шт роза кустовая, пионовидная роза, гвоздика, 50&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/2.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Букет из&nbsp;101 розовой розы 40&nbsp;см в&nbsp;крафте, 101&nbsp;роза, 40&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/1.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Монобукет, 17&nbsp;шт роза кустовая, пионовидная роза, гвоздика, 50&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/4.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Монобукет, 17&nbsp;шт роза кустовая, пионовидная роза, гвоздика, 50&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/2.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Букет из&nbsp;101 розовой розы 40&nbsp;см в&nbsp;крафте, 101&nbsp;роза, 40&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+        </ul>
+      </div>
+      <div class="catalog-page__box-banner-two">
+        <div class="catalog-page__info-two">
+          <p class="catalog-page__desc-top-info">
+            Коллекция
+          </p>
+          <p class="catalog-page__desc-bottom-info">
+            Цветы в корзине
+          </p>
+          <a class="catalog-page__link-bottom card2__link" href="#">
+            Перейти в раздел
+          </a>
+        </div>
+        <div class="catalog-page__img-box-one">
+          <picture>
+            <source srcset="img/catalog-page/box-banner/img2.1(375).jpg" media="(max-width: 650px)">
+            <source srcset="img/catalog-page/box-banner/img2.1(835).jpg" media="(max-width: 1200px)">
+            <img class="catalog-page__img-one" src="img/catalog-page/box-banner/img2.1.jpg" alt="img">
+          </picture>
+        </div>
+        <div class="catalog-page__img-box-two">
+          <picture>
+            <source srcset="img/catalog-page/box-banner/img2.2(375).jpg" media="(max-width: 650px)">
+            <source srcset="img/catalog-page/box-banner/img2.2(835).jpg" media="(max-width: 1200px)">
+            <img class="catalog-page__img-two" src="img/catalog-page/box-banner/img2.2.jpg" alt="img">
+          </picture>
+        </div>
+      </div>
+      <div class="catalog-page__catalog">
+        <ul class="catalog-page__list list-reset">
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/1.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Букет цветов из&nbsp;51&nbsp;красной розы
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/2.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Букет из&nbsp;101 розовой розы 40&nbsp;см в&nbsp;крафте, 101&nbsp;роза, 40&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/3.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Букет из&nbsp;51&nbsp;розовой розы в&nbsp;форме сердца Кения 40&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/4.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Монобукет, 17&nbsp;шт роза кустовая, пионовидная роза, гвоздика, 50&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/2.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Букет из&nbsp;101 розовой розы 40&nbsp;см в&nbsp;крафте, 101&nbsp;роза, 40&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/1.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Монобукет, 17&nbsp;шт роза кустовая, пионовидная роза, гвоздика, 50&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/4.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Монобукет, 17&nbsp;шт роза кустовая, пионовидная роза, гвоздика, 50&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+          <li class="catalog-page__item">
+            <div class="card1">
+  <div class="card1__box">
+    <div class="card1__box-img">
+      <img class="card1__img" src="img/stocks/2.jpg" alt="img">
+    </div>
+    <a href="#" class="card1__title">
+      Букет из&nbsp;101 розовой розы 40&nbsp;см в&nbsp;крафте, 101&nbsp;роза, 40&nbsp;см
+    </a>
+    <p>
+      @@desc
+    </p>
+  </div>
+  <div class="card1__box-prise">
+    <p class="card1__prise">
+      2 100 руб.
+    </p>
+    <span class="card1__prise-old">2 800 руб.</span>
+  </div>
+  <div class="card1__flag-box">
+     <!--Если оборачивать то так при добавлении класса "card1__flag--active" меняется цвет-->
+    <a href="#" class="card1__flag">состав</a>
+    <!--Если оборачивать то так-->
+  </div>
+  <div class="card1__like-box">
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+    <a href="#" class="card1__like">
+      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.64902 5.91514C4.49879 5.06562 5.65118 4.58839 6.85277 4.58839C8.05435 4.58839 9.20674 5.06562 10.0565 5.91514L11.3842 7.24173L12.712 5.91514C13.13 5.48234 13.63 5.13712 14.1828 4.89963C14.7357 4.66214 15.3303 4.53714 15.932 4.53191C16.5337 4.52668 17.1304 4.64133 17.6873 4.86918C18.2442 5.09703 18.7501 5.4335 19.1756 5.85897C19.6011 6.28445 19.9376 6.79039 20.1654 7.34729C20.3933 7.9042 20.5079 8.5009 20.5027 9.10258C20.4975 9.70427 20.3724 10.2989 20.135 10.8517C19.8975 11.4046 19.5522 11.9046 19.1194 12.3226L11.3842 20.059L3.64902 12.3226C2.7995 11.4729 2.32227 10.3205 2.32227 9.11889C2.32227 7.91731 2.7995 6.76492 3.64902 5.91514V5.91514Z" stroke="currentColor" stroke-width="1.88811" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <!--добавлении класса "card1__like--active" a меняется цвет лайка-->
+  </div>
+</div>
+          </li>
+        </ul>
+        <div class="catalog-page__loading">
+          <button class="download__btn btn-reset">
+  Загрузить ещё
+</button>
+
+          <div class="catalog-page__loading-box">
+            <button class="catalog-page__btn-page btn-swiper btn-reset">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 9H3M3 9L7.5 13.5M3 9L7.5 4.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+            <ul class="catalog-page__list-loading list-reset">
+              <li class="catalog-page__item-loading">
+                1
+              </li>
+              <li class="catalog-page__item-loading">
+                2
+              </li>
+              <li class="catalog-page__item-loading">
+                3
+              </li>
+              <li class="catalog-page__item-loading">
+                4
+              </li>
+              <li class="catalog-page__item-loading">
+                5
+              </li>
+              <li class="catalog-page__item-loading">
+                6
+              </li>
+              <li class="catalog-page__item-loading">
+                ...
+              </li>
+            </ul>
+            <button class="catalog-page__btn-page btn-swiper btn-reset">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 9H15M15 9L10.5 13.5M15 9L10.5 4.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="catalog-page__gift-box">
+        <h2 class="catalog-page__title-gift title-one">
+          Соберите лучший подарок
+        </h2>
+        <div class="swiper-group-btn">
+  <button class="catalog-page__swiper-btn-next btn-swiper btn-reset">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M15 9H3M3 9L7.5 13.5M3 9L7.5 4.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </button>
+  <button class="catalog-page__swiper-btn-prev btn-swiper btn-reset">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3 9H15M15 9L10.5 13.5M15 9L10.5 4.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </button>
+</div>
+        <div class="catalog-page__content-gift">
+          <div class="catalog-page__left">
+            <div class="catalog-page__box-logo">
+              <a class="catalog-page__link-logo">
+                <img class="catalog-page__logo" src="img/catalog-page/gift/logo.png" alt="Лого">
+              </a>
+            </div>
+            <p class="catalog-page__desc-gift">
+              Подарите к&nbsp;этому букету
+            </p>
+          </div>
+          <div class="swiper catalog-page__swiper" id="sliderSeven">
+              <ul class="swiper-wrapper catalog-page__swiper-wrapper list-reset">
+                <li class="catalog-page__swiper-slide swiper-slide">
+                  <div class="card7">
+  <div class="card7__box-img">
+    <img class="card7__img" src="img/catalog-page/gift/1.png" alt="img">
+  </div>
+  <a class="card7__link" href="#">
+    БЕСПЛАТНАЯ ОТКРЫТКА
+  </a>
+</div>
+                </li>
+                <li class="catalog-page__swiper-slide swiper-slide">
+                  <div class="card7">
+  <div class="card7__box-img">
+    <img class="card7__img" src="img/catalog-page/gift/2.png" alt="img">
+  </div>
+  <a class="card7__link" href="#">
+    ИНСТРУКЦИЯ К БУКЕТУ
+  </a>
+</div>
+                </li>
+                <li class="catalog-page__swiper-slide swiper-slide">
+                  <div class="card7">
+  <div class="card7__box-img">
+    <img class="card7__img" src="img/catalog-page/gift/3.png" alt="img">
+  </div>
+  <a class="card7__link" href="#">
+    УПАКОВКА И АКВАБОКС
+  </a>
+</div>
+                </li>
+                <li class="catalog-page__swiper-slide swiper-slide">
+                  <div class="card7">
+  <div class="card7__box-img">
+    <img class="card7__img" src="img/catalog-page/gift/2.png" alt="img">
+  </div>
+  <a class="card7__link" href="#">
+    ИНСТРУКЦИЯ К БУКЕТУ
+  </a>
+</div>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <div class="catalog-page__advertisement">
+        <div class="card4">
+  <div class="card4__logo-box">
+    <a class="card4__link-logo" href="/">
+      <img class="card4__logo" src="img/products-new/logo.png">
+    </a>
+  </div>
+  <div class="card4__desc-group">
+    <p class="card4__desc-top">
+      Не&nbsp;нашли, что искали?
+    </p>
+    <p class="card4__desc-bottom">
+      Соберём букет&nbsp;по вашим пожеланиям
+    </p>
+  </div>
+  <a class="card4__btn btn-one btn-reset">
+    Выбрать букет
+  </a>
+</div>
+        <div class="card8">
+  <p class="card8__title-advertisement">
+    Букеты корпоративным клиентам
+  </p>
+  <p class="card8__desc-advertisement">
+    Хотите сделать заказ для компании? Свяжитесь с&nbsp;нами или опишите задачу.
+  </p>
+  <a class="card8__link-advertisement card2__link" href="#">
+    Оформить подписку
+  </a>
+</div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__content">
+      <div class="footer__left">
+        <a class="footer__link-logo" href="/">
+          <img class="footer__img-logo" src="img/header/logo.png" alt="Лого">
+        </a>
+        <p class="footer__desc">
+          Сервис быстрой доставки цветов
+        </p>
+      </div>
+      <div class="footer__centre-one">
+        <h3 class="footer__title">
+          Информация
+        </h3>
+        <nav class="footer__nav footer__nav-one">
+          <ul class="footer__list footer__list-one list-reset">
+            <li class="footer__item">
+              <a class="footer__link" href="form_payment.html">
+                О&nbsp;компании
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="order_history.html">
+                Доставка и&nbsp;оплата
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="bonus_program.html">
+                Адреса магазинов
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="bonus.html">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__centre-two">
+        <h3 class="footer__title">
+          Разделы
+        </h3>
+        <nav class="footer__nav footer__nav-two">
+          <ul class="footer__list footer__list-two list-reset">
+            <li class="footer__item">
+              <a class="footer__link" href="shipping_method.html">
+                Цветы
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="my_appeals.html">
+                Букеты
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="personal_data.html">
+                Повод
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="catalog.html">
+                Розы
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="order.html">
+                Акции
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="basket.html">
+                Подарки
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__right">
+        <h3 class="footer__title">
+          Контакты
+        </h3>
+        <div class="footer__box-contacts">
+          <a class="footer__link-contacts" href="tel:+79635712559">
+            8&nbsp;963&nbsp;571&nbsp;-&nbsp;25&nbsp;-&nbsp;59
+          </a>
+          <button class="footer__link-order btn-reset open-modal" id="modal1">
+            Закать звонок
+          </button>
+        </div>
+        <div class="footer__box-link">
+          <a class="header__link-write footer__link-write" href="#">
+            <img src="img/header/icon/WA.png" alt="Напишите нам">
+            <span>Написать&nbsp;в&nbsp;WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom-box">
+      <p class="footer__desc-bottom">
+        &copy;&nbsp;2024 Цветы столицы, Все права защищены
+      </p>
+      <a class="footer__link-bottom" href="#">
+        Политика конфиденциальности
+      </a>
+    </div>
+  </div>
+  <!--Открытие и закрытие модального окна завязано на "id конпки" и на атрибуте "data-modal-id" у модалки-->
+<div class="modal-call" data-modal-id="modal1">
+  <div class="modal-call__wrapp">
+    <div class="modal-call__close-wrapp">
+      <button class="modal-call__close btn-reset">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <form class="modal-call__form" id="phoneForm">
+      <h3 class="modal-call__title">
+        Заказать звонок
+      </h3>
+      <label class="modal-call__leabel" for="tel">Телефон</label>
+      <input class="modal-call__input" id="tel" name="tel">
+      <button class="modal-call__btn btn-reset btn-one" id="submit">
+        Заказать
+      </button>
+    </form>
+  </div>
+</div>
+</footer>
+  <div class="overlay"></div>
+</body>
+</html>
